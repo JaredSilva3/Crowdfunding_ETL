@@ -27,7 +27,7 @@ CREATE TABLE "Campaign" (
     "company_name" name   NOT NULL,
     "description" name   NOT NULL,
     "goal" float   NOT NULL,
-    "pledged" flaot   NOT NULL,
+    "pledged" float   NOT NULL,
     "outcome" name   NOT NULL,
     "backers_count" int   NOT NULL,
     "country" name   NOT NULL,
