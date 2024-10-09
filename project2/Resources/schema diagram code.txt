@@ -5,17 +5,17 @@
 Category
 -
 category PK name
-category_id name FK >-< Campaign.category_id
+category_id name
 
 Subcategory
 -
 subcategory PK name
-subcategory_id name FK >-< Campaign.subcategory_id
+subcategory_id name
 
 Campaign
 -
 cf_id PK int
-contact_id int
+contact_id int FK - Contact.contact_id
 company_name name
 description name
 goal float
@@ -29,12 +29,12 @@ end_date timestamp
 staff_pick boolean
 spotlight boolean
 category_and_sub-category name 
-category_id name
-subcategory_id name
+category_id name FK >- Category.category
+subcategory_id name FK >- Subcategory.subcategory
 
 Contact
 -
-contact_id int FK >-< Campaign.contact_id
+contact_id PK int
 first_name name
 last_name name
 email name
