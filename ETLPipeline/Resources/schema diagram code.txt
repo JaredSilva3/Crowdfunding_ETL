@@ -1,0 +1,40 @@
+# Modify this code to update the DB schema diagram.
+# To reset the sample schema, replace everything with
+# two dots ('..' - without quotes).
+
+Category
+-
+category PK name
+category_id name FK >- Campaign.category_id
+
+Subcategory
+-
+subcategory PK name
+subcategory_id name FK >- Campaign.subcategory_id
+
+Campaign
+-
+cf_id PK int
+contact_id int
+company_name name
+description name
+goal float
+pledged flaot
+outcome name
+backers_count int
+country name
+currency name
+launch_date timestamp
+end_date timestamp
+staff_pick boolean
+spotlight boolean
+category_and_sub-category name 
+category_id name
+subcategory_id name
+
+Contact
+-
+contact_id int FK >- Campaign.contact_id
+first_name name
+last_name name
+email name
