@@ -22,6 +22,6 @@ This project focuses on building an ETL pipeline for crowdfunding data. This inc
 - **Data Upload**: Data from CSV files uploaded to respective tables in the database.
 
 ## Importing Schema
-1. **Run the SQL schema**: Execute the `schema.sql` file in PostgreSQL to create the database schema.
+1. **Run the SQL schema**: Execute the `crowdfunding_db_schema.sql` file in PostgreSQL to create the database schema.
 2. **Import the CSV files**: Import each CSV file into the appropriate PostgreSQL table, with `campaign.csv` being imported last, as it depends on data from other tables.
 
