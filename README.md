@@ -9,12 +9,12 @@ This project focuses on building an ETL pipeline for crowdfunding data. This inc
 - Paul
 
 ## Files Included
-- **ETL_Mini_Project_Starter_Code.ipynb**: Notebook for the ETL process.
+- **ETL_Mini_Project_JSilva_SWeiser_PKeller.ipynb**: Notebook for the ETL process.
 - **category.csv**: Categories derived from campaign data.
 - **subcategory.csv**: Subcategories derived from campaign data.
 - **campaign.csv**: Compiled campaign data.
 - **contacts.csv**: Contact information related to campaigns.
-- **schema.sql**: The SQL schema used to create the database.
+- **crowdfunding_db_schema.sql**: The SQL schema used to create the database.
 - **schema diagram.png**: A diagram illustrating the database structure and relationships.
 
 ## Database
